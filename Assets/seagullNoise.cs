@@ -19,6 +19,7 @@ public class seagullNoise : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player") {
+            Debug.Log("Seagull");
             gameObject.GetComponent<AudioSource>().PlayOneShot(seagullSFX);
         }
     }
