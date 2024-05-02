@@ -3,7 +3,9 @@ guid: 66040c087c01541f494e24193fa32b8a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - seagullSFX: {fileID: 8300000, guid: 36824d52ae3a548099062a27c6fc23b6, type: 3}
+  - ui: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
