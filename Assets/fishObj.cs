@@ -7,10 +7,11 @@ public class fishObj : MonoBehaviour
 
     public GameObject fish;
     public GameObject fishOb;
+    public GameObject llyOb; 
     // Start is called before the first frame update
     void Start()
     {
-
+        llyOb.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,6 +25,7 @@ public class fishObj : MonoBehaviour
         {
            fish.SetActive(false);
            fishOb.SetActive(false);
+           llyOb.SetActive(true);
     
         }
     }
