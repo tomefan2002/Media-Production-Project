@@ -514,7 +514,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 42.575, y: -327.36}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 945.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &158384541
 MonoBehaviour:
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: paap
+  m_text: I really worry about future generations on our little archipelago
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 256f436519780a6498cf422abde2d53b, type: 2}
   m_sharedMaterial: {fileID: 5663454707444345725, guid: 256f436519780a6498cf422abde2d53b, type: 2}
@@ -563,8 +563,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -12174,7 +12174,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 43.125, y: -327}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 945.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103605696
 MonoBehaviour:
@@ -12196,7 +12196,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: appa
+  m_text: Gosh dude, this climate crisis really isn't being spoken about enough
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 256f436519780a6498cf422abde2d53b, type: 2}
   m_sharedMaterial: {fileID: 5663454707444345725, guid: 256f436519780a6498cf422abde2d53b, type: 2}
@@ -12223,8 +12223,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
