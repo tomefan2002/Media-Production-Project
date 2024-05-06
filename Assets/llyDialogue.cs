@@ -10,8 +10,9 @@ public class llyDialogue : MonoBehaviour
     public GameObject talkButton;
     public GameObject nextButton;
     public GameObject closeButton;
-    public GameObject ob3; 
+    public GameObject ob3;
     public GameObject objs;
+    public GameObject returnMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,8 @@ public class llyDialogue : MonoBehaviour
         talkButton.SetActive(false);
         nextButton.SetActive(false);
         closeButton.SetActive(false);
+        returnMenu.SetActive(false);
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -61,8 +64,7 @@ public class llyDialogue : MonoBehaviour
         closeButton.SetActive(false);
         ob3.SetActive(false);
         objs.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
-    }
+        returnMenu.SetActive(true);
 
+    }
 }
